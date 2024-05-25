@@ -61,5 +61,4 @@ userSchema.methods.isPasswordCorrect = async function(password){
 }
 
 userSchema.methods.generateAccessToken = function(){}
-
 export const User = mongoose.model("User", userSchema)
